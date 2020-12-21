@@ -79,7 +79,7 @@ basic.forever(function () {
 
 ## Schritt 4
 Jetzt können wir mit der eigentlichen Entschlüsselung beginnen. Schiebe dazu eine ``||logic:wenn dann||`` - Bedingung in den ``||basic: dauerhaft||`` Block.
-Dieser soll prüfen, ob die beiden Tasten ``||input:A + B||`` gleichzeitig gedrückt sind. Wenn ja, soll der Buchstabe wie bisher angezeigt werden, nur mit einer kleinen Ergänzung. Hier kommt die mysteriöse 15 aus dem Brief ins Spiel. Der Buchstabe muss nun an der Stelle ``||Math:BuchstabenNummer + 15||`` angezeigt werden. <br>
+Dieser soll prüfen, ob die beiden Tasten ``||input:A + B||`` gleichzeitig gedrückt sind. Wenn ja, soll der Buchstabe wie bisher angezeigt werden, nur mit einer kleinen Ergänzung. Hier kommt die mysteriöse 11 aus dem Brief ins Spiel. Der Buchstabe muss nun an der Stelle ``||Math:BuchstabenNummer + 11||`` angezeigt werden. <br>
 Ist die Bedingung nicht erfüllt, soll der Buchstabe einfach wie im vorherigen Schritt angezeigt werden.
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -101,7 +101,7 @@ let Buchstaben = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
         basic.setLedColor(0x00ff00)
-        basic.showString("" + (Buchstaben[buchstabenNummer + 15]))
+        basic.showString("" + (Buchstaben[buchstabenNummer + 11]))
         basic.pause(100)
     } else {
         basic.setLedColor(0x000000)
