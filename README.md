@@ -1,7 +1,7 @@
 # Geheime Botschaft vom Nordpol
 ## ~avatar avatar @unplugged
 Soeben ist eine geheime Botschaft vom Weihnachtsmann eingetroffen. Hoffentlich kannst du sie mit dem Calliope entschlüsseln.
-![Bootschaft](https://github.com/r00b1nh00d/geheimeBotschaftVomNordpol/blob/master/GeheimeBootschaft1.PNG?raw=true)
+![Bootschaft](https://github.com/r00b1nh00d/geheimeBotschaftVomNordpol/blob/master/Geheim.PNG?raw=true)
 
 
 
